@@ -12,7 +12,7 @@ title: 我的Blog
   
     <li>
       {{ post.date | date_to_string }} 
-      <a href="/jekyll/{{ post.url }}">{{ post.title }}</a>
+      <a href="/jekyll{{ post.url }}">{{ post.title }}</a>
      </li>
    
 　{% endfor %}
