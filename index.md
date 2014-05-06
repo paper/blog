@@ -10,16 +10,11 @@ title: 我的Blog
 3. 3dfadsfsad
 
 
-<h2>{{ page.title }}</h2>
+## {{ page.title }}
 
-<p>最新文章222222222</p>
+最新文章222222222
 
-<ul>
+{% for post in site.posts %}
+　1. {{ post.date | date_to_string }} <a href="/blog{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
 
-　　{% for post in site.posts %}
-
-　　　  <li>{{ post.date | date_to_string }} <a href="/blog{{ post.url }}">{{ post.title }}</a></li>
-
-　　{% endfor %}
-
-</ul>
