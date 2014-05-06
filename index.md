@@ -15,6 +15,6 @@ title: 我的Blog
 最新文章222222222
 
 {% for post in site.posts %}
-　1. {{ post.date | date_to_string }} <a href="/blog{{ post.url }}">{{ post.title }}</a></li>
+　1. {{ post.date | date_to_string }} [{{ post.title }}](/blog{{ post.url }})
 {% endfor %}
 
