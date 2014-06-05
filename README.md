@@ -1,1 +1,1 @@
-=> https://github.com/paper/blog/issues
+(ง •̀_•́)ง https://github.com/paper/blog/issues
