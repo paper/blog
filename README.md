@@ -1,3 +1,1 @@
-paper个人blog
-===========
-    console.log("Hello World~");
+=> https://github.com/paper/blog/issues
